@@ -1,0 +1,21 @@
+{
+  "name": "htmltag-webpack-plugin",
+  "version": "1.0.2",
+  "description": "a webpack plugin that add marktag for html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantCHG/htmltag-webpack-plugin.git"
+  },
+  "author": "grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantCHG/htmltag-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/grantCHG/htmltag-webpack-plugin#readme",
+  "_from": "htmltag-webpack-plugin@1.0.2",
+  "_resolved": "http://10.16.0.51:7001/htmltag-webpack-plugin/download/htmltag-webpack-plugin-1.0.2.tgz"
+}
