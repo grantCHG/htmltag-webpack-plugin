@@ -5,8 +5,8 @@ function HtmlTagWebpackPlugin(options) {
 HtmlTagWebpackPlugin.prototype.addTag = function (params) {
     let { htmlPluginData, appendTag, insertTag, beginTag, endTag, callback } = params;
     let html = htmlPluginData.html;
-    appendTag = appendTag || /\<\s*!DOCTYPE html[^>]*\>/i;
-    insertTag = insertTag || /\<\s*\/body[^>]*\>/i;
+    appendTag = appendTag || /\<!DOCTYPE html[^>]*\>/i;
+    insertTag = insertTag || /\<\/body[^>]*\>/i;
     beginTag = beginTag || "<!--kugoubegin-->";
     endTag = endTag || "<!--kugouend-->";
     html = html.replace(appendTag, (a, b) => {
